@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batalha Contra Soviéticos Ball</title>
+    <link rel="stylesheet" href="style.css">
+<style>body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: red;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+#battle-log {
+    width: 300px;
+    height: 150px;
+    overflow-y: auto;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px auto;
+    background: white;
+    text-align: left;
+}</style>
+<body>
+    <h1>Batalha Contra Soviéticos Ball</h1>
+    <p><strong>Seu HP:</strong> <span id="player-health">50</span></p>
+    <p><strong>HP do Soviéticos Ball:</strong> <span id="enemy-health">50</span></p>
+
+    <button onclick="atacar()">Atacar</button>
+
+    <div id="battle-log"></div>
+
+    <script src="kkk.js"></script>
+</body>
+</html>
